@@ -1,8 +1,8 @@
 CTFs primarily built for use in NUHack Alpha. 
 
-Each folder within the directory 'For-Hackathons' contains the source code to build the challenges. You will have to inject unique flag values using a global variable called $FLAG each time a challenge is built. 
+Each folder within 'For-Hackathons' contains source code to build challenges. Inject unique flag values using a global variable called $FLAG before the challenge is built. 
 
-Each folder within the directory 'Self-Hosted' is intended to be for use if you'd like to try the challenges outside of a hackathon! To run these, use the build.sh scripts contained within each challenge. Python3 is required for these. If in doubt, the README.md should point you the correct way. Answers available in the Answers directory.
+Each folder within 'Self-Hosted' is intended to be runnable if you'd like to try the challenges outside of a hackathon. To run these, use the build.sh scripts contained within each challenge. Python3 is required. If in doubt, the README.md should point you the correct way. Answers can be found in the Answers directory.
 
 *Please note that each folder within the 'For-Hackathons' directory may contain spoilers or answers!*
 
