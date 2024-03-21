@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+if [ -z "${FLAG}" ]; then
+    >&2 echo "Error: FLAG variable is not set or is empty."
+    exit 1
+fi
+
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+make -D "$SCRIPT_DIR"/src
+"$SCRIPT_DIR"/src/snow -C -m $FLAG "$SCRIPT_DIR"/src/input-riddle.txt frosty-riddle.txt

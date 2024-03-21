@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+if [ -z "${FLAG}" ]; then
+    >&2 echo "Error: FLAG variable is not set or is empty."
+    exit 1
+fi
+
+# Current URL = Rick Roll
+base_URL="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+append=$(echo "$FLAG" | base64)
+
+output="${base_URL}${append}"
+
+echo $output > challenge.txt
