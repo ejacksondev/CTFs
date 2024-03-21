@@ -1,0 +1,5 @@
+Script tor nodes or a vpn
+
+Try this for inspiration: https://thehackerblog.com/sneaky-methods-for-capturing-the-geolocation-flags-for-hack-lu-ctf/
+
+_Note: the inspiration for this challenge came from the Geolocation Flag in the hack.lu CTF and this blog post_

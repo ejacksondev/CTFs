@@ -1,0 +1,2 @@
+ncat XX.XX.XX.XX 1024-4096 > out.txt 
+CTRL-F out.txt for flag

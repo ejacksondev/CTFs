@@ -1,0 +1,2 @@
+Notice YouTube resolves the given URL without the final portion of the URL. Base64 decode the portion YouTube removes for the flag!
+Inspired by: https://github.com/N4m3N1ck/DailyCTF challenge Day 8
